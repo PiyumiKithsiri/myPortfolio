@@ -5,7 +5,15 @@ const Header = () => {
   return (
     <header className="py-8 xl:py-12 text-white">
       <div className="container mx-auto">
-        header
+        {/* logo */}
+        <Link href="/">
+          <h1 className="text-4xl font-semibold">Piyumi 
+            <span className="text-accent"> .</span>
+          </h1>
+        </Link>
+          
+        {/*desktop navigation */}
+        <Nav/>
       </div>
 
     </header>
